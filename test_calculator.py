@@ -18,7 +18,7 @@ def test_multiply(calc):
     assert calc.multiply(-2.0, 5.0) == -10.0
 
 def test_divide(calc):
-    assert calc.divide(5.0, 1.0) == 1.0
+    assert calc.divide(5.0, 1.0) == 5.0
     assert calc.divide(4.0, 2.0) == 2.0
 
 def test_divide_by_zero(calc):
